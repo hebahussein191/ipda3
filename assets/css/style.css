@@ -1,0 +1,636 @@
+body {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    padding-top: 70px;
+}
+
+/* Start Navbar */
+nav img {
+    width: 185px;
+}
+/* End Navbar */
+
+/* Start Header Section */
+.header {
+    overflow: hidden;
+    padding: 50px 0;
+    background: url(../images/header/header-side.jpg) no-repeat top left;
+    width: 100%;
+    background-size: contain;
+    margin-top: 30px;
+    position: relative;
+}
+
+.header img {
+    margin-right: 70px;
+}
+
+@media (max-width:767px) {
+    .header img {
+        margin-right: 0;
+    }
+}
+
+.header .header-img h1 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    font-size: 40px;
+    text-align: right;
+    color: #233142
+}
+
+/* End Header Section */
+
+/* Strat About Section */
+.about {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.about h2 {
+    color: #233142;
+}
+
+.about .title p {
+    color: #233142;
+    text-align: right;
+    font-size: 21px;
+    line-height: 1.8;
+    margin-top: 50px;
+    margin-right: 140px;
+}
+
+@media (max-width: 767px) {
+    .about .title p {
+        font-size: 18px;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about .about-img img {
+        margin-top: 100px
+    }
+
+    .about .title p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .our-job .item img {
+        margin-left: 125px;
+    }
+}
+
+*/
+/* End About Section */
+
+/* Start Testimonial */
+
+.testimonial .bg {
+    background: url(../images/testimonials/bg.png) no-repeat center center;
+    background-size: cover;
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.testimonial .card {
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    border-radius: 5%;
+    margin: 0 20px;
+}
+
+.testimonial .card img {
+    width: 50%;
+    margin: 35px auto;
+}
+
+.testimonial .card h5 {
+    color: #3aade6;
+}
+
+.testimonial .controllers {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.testimonial .controllers span,
+.client .controllers span {
+    padding: 0 15px;
+}
+
+/* End Testimonial */
+
+/* Start Our Work */
+.our-work h2 {
+    margin-top: 50px;
+}
+
+.our-work .bg {
+    background: url(../images/work/bg.gif) no-repeat center center;
+    background-size: cover;
+    padding: 80px 0 100px
+}
+
+.our-work .card {
+    margin: 15px auto;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+    border-radius: 7%;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+.our-work .card img {
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+    border-radius: 7%;
+}
+
+.our-work .btn-work,
+.articles .bttn {
+    background-color: #233142;
+    padding: 10px 70px;
+    margin-top: 55px;
+    border: #233142;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+}
+
+/* End Our Work */
+
+/* Start Articles */
+.articles {
+    background: url(../images/micro/articles-bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.articles .card {
+    margin: 15px auto;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+    border-radius: 7%;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+.articles .card img {
+    -webkit-border-radius: 9%;
+    -moz-border-radius: 9%;
+    -ms-border-radius: 9%;
+    -o-border-radius: 9%;
+    border-radius: 9%;
+}
+
+.articles .card .card-body {
+    text-align: right;
+    position: relative;
+}
+
+.articles .btn-micro {
+    background-color: #233142;
+    padding: 8px 18px;
+    margin-top: 25px;
+    border: #233142;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.articles .card .card-body .icon {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+}
+
+.articles .card .card-body .num {
+    color: #aaa
+}
+
+/* End Articles */
+
+/* Start Client */
+.client {
+    padding: 100px 0 0
+}
+
+.client .bg {
+    background: url(../images/client/our-client-bg.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 80px 0
+}
+
+.client img {
+    margin: 0 auto;
+}
+
+.client .controllers {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* End Client */
+
+/* Start Footer */
+.footer {
+    background: url(../images/footer/footer.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footer .foot img {
+    margin-top: 70px
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer .foot img {
+        margin-top: 0
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer .foot img {
+        margin-top: 50px
+    }
+}
+
+.footer .foot p {
+    margin: 30px 0
+}
+
+.footer .foot ul li {
+    display: inline-block;
+    padding: 10px 12px
+}
+
+.footer .foot ul li a {
+    color: #fff
+}
+
+/* End Footer */
+
+/******************************** Start Globle CSS ******************************/
+
+/* Start Our Work */
+
+.our-work .dest,
+.articles .dest,
+.app .dest,
+.our-job .dest {
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: #3aade6;
+    padding: 5px 20px;
+    margin-bottom: 70px
+}
+
+.our-work nav {
+    position: relative;
+}
+
+.our-work nav .pagination {
+    position: absolute;
+    top: 30px;
+    left: 41%;
+    margin-bottom: 20px
+}
+
+@media (max-width:767px) {
+    .our-work nav .pagination {
+        left: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .our-work nav .pagination {
+        left: 33%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .our-work nav .pagination {
+        left: 40%;
+    }
+}
+
+/* End Our Work */
+
+/* Start Articles */
+
+.articles .dest {
+    margin: 30px 0
+}
+
+.articles .bg {
+    background: url(../images/micro/articles-bg.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    margin-top: 20px
+}
+
+.articles nav {
+    position: relative;
+}
+
+.articles nav .pagination {
+    position: absolute;
+    bottom: -90px;
+    left: 470px;
+}
+
+@media (max-width:767px) {
+    .articles nav .pagination {
+        left: 110px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .articles nav .pagination {
+        left: 260px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .articles nav .pagination {
+        left: 380px;
+    }
+}
+
+/* End Articles */
+
+/* Start APP One */
+
+.app {
+    margin: 100px 0 200px;
+}
+
+.app img {
+    width: 100%;
+    margin-bottom: 40px
+}
+
+.app .bg {
+    background: url(../images/app/details-bg.png) no-repeat center center;
+    background-size: cover;
+    padding: 60px 70px;
+    margin: 50px 0
+}
+
+.app p {
+    color: #fff;
+    text-align: right;
+}
+
+@media (max-width:767px) {
+    .app p {
+        font-size: 14px
+    }
+}
+
+.app .app-arrows {
+    text-align: center;
+    margin: 50px;
+}
+
+.app .app-arrows i {
+    background-color: #111;
+    color: #fff;
+    padding: 3px 7px;
+    margin-left: 10px;
+}
+
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-carousel .my-card {
+    height: 20rem;
+    width: 30rem;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    /*background: #2e5266;
+    background: linear-gradient(to top, #2e5266, #6e8898);*/
+    transition: 1s;
+}
+
+.card-carousel .my-card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    bottom: -5rem;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+.card-carousel .my-card.prev,
+.card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 0.6;
+    pointer-events: auto;
+    transition: 1s;
+}
+
+/************************/
+
+.card-carousel .my-card:nth-child(0):before {
+    content: '0';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(1):before {
+    content: '1';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(2):before {
+    content: '2';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(3):before {
+    content: '3';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.card-carousel .my-card:nth-child(4):before {
+    content: '4';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* End APP One */
+
+/* Start  Our Job */
+.our-job {
+    overflow: hidden;
+}
+
+.our-job .bg {
+    background: url(../images/job/bg.gif) no-repeat center center;
+    background-size: cover;
+    padding: 50px 0
+}
+
+.our-job .item {
+    margin: 30px auto;
+    width: 60%;
+    background-color: #fff;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    border-radius: 3%;
+}
+
+@media (max-width: 767px) {
+    .our-job .item {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .our-job .item {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+        border-radius: 0;
+    }
+}
+
+.our-job .item img {
+    width: 50%;
+    margin-left: 155px;
+    margin-top: 55px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    border-radius: 10%;
+}
+
+@media (max-width: 767px) {
+    .our-job .item img {
+        margin-left: 75px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .our-job .item img {
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .our-job .item img {
+        margin-left: 125px;
+    }
+}
+
+.our-job .item p {
+    padding: 20px 30px;
+    text-align: right;
+    line-height: 1.6
+}
+
+@media (max-width:992px) {
+    .our-job h2 {
+        font-size: 18px
+    }
+
+    .our-job .item p {
+        font-size: 14px
+    }
+}
+
+/* End Our Job */
+
+/******************************** End Globle CSS ******************************/
+
+/* Important Rules */
+.line {
+    width: 100px;
+    background-color: #3aade6;
+    height: 1px;
+    margin: 30px auto 50px
+}
